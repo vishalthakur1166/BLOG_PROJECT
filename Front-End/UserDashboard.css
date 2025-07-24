@@ -1,0 +1,32 @@
+.dashboard-wrapper {
+  padding: 30px;
+  background: linear-gradient(to right, #000203, #323333, #2c5364);
+  min-height: 90vh;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.dashboard-card {
+  background: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.dashboard-icon {
+  height: 60px;
+  margin-bottom: 10px;
+}
